@@ -91,6 +91,7 @@ img {
 
 .article-section {
   transition: box-shadow 0.3s ease, transform 0.3s ease;
+	cursor: pointer;
 }
 
 .article-section:hover {

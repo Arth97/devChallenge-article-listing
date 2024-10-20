@@ -69,6 +69,8 @@ section {
 	display: flex;
 	align-items: center;
 	gap: 50px;
+	padding: 5px;
+	border-radius: 15px;
 }
 @media (max-width: 640px) {
 	section {
@@ -86,4 +88,11 @@ img {
 	gap: 20px;
 }
 
+.article-section {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
 
+.article-section:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}

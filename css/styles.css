@@ -65,10 +65,15 @@ main {
 }
 
 section {
-	width: 575px;
+	width: 730px;
 	display: flex;
 	align-items: center;
 	gap: 50px;
+}
+@media (max-width: 640px) {
+	section {
+		width: 575px;
+	}
 }
 
 img {
@@ -80,4 +85,5 @@ img {
 	flex-direction: column;
 	gap: 20px;
 }
+
 
